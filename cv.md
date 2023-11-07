@@ -37,10 +37,10 @@ function binarySearch (list, item){
             high = mid-1}
         else { low = mid+1}
     }
-    return null
-} 
+    return null} 
 
 let myList=[1,2,3,4,5,6,7,8,9,10]
+
 binarySearch(myList,10)
 
 ## Work experience:
