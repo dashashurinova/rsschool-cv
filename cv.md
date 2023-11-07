@@ -4,7 +4,7 @@
 
 ## Contact information:
 **E-mail:** shurinova.dar.yandex.ru 
-**Telegram:** @ShurinovaD
+**Telegram:** [@ShurinovaD](@ShurinovaD)
 **Site:** [ShurinovaD](http://f98315rl.beget.tech/index.html)
 
 ## Briefly about me:
@@ -19,36 +19,29 @@ I am a professional automation engineer, to start with. One day it was my dream 
 *	Glide
 
 ## Code example:
-### This code sorts the array.
+### This code makes binary search.
 
-function sort(arr){
-    let newArr =[]
-    let i
-    let smallest
-    let smInd
-    let len = arr.length
-     for (i=0; i<len; i++)
-    {   smInd=findSmallest(arr)
-       smallest = arr[smInd]
-       newArr.push(arr[smInd])
-       arr.splice(smInd,1)  
+function binarySearch (list, item){
+    let low=list[0]
+    let high = list[list.length-1]
+    let mid, guess
+
+    while (low <= high){
+        mid = Math.floor((low+high)/2)
+        console.log("mid "+mid)
+        guess = list[mid]
+        if (guess === item){
+            console.log("mid "+mid)
+            return mid}
+        if (guess>item){
+            high = mid-1}
+        else { low = mid+1}
     }
-    console.log(newArr)
-    return newArr
-    }
-function findSmallest(arr){
-    let smallest = arr[0]
-    let smInd = 0
-    let i
-    for (i=0; i<arr.length; i++)
-        {if (arr[i]<smallest)
-            {smallest=arr[i]
-            smInd=i}
-        }
-        return smInd
-    }
-let pum = [2,68,4,832,9,1,1,1,-23]
-sort(pum)
+    return null
+} 
+
+let myList=[1,2,3,4,5,6,7,8,9,10]
+binarySearch(myList,10)
 
 ## Work experience:
 [ShurinovaDarya](http://f98315rl.beget.tech/index.html)
