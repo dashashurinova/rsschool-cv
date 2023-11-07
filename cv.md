@@ -1,3 +1,5 @@
 * Shurinova Darya
 
 * Contacts
+
+* Skills
