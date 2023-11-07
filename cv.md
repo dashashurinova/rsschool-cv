@@ -27,8 +27,7 @@ function sort(arr){
     let smallest
     let smInd
     let len = arr.length
-
-    for (i=0; i<len; i++)
+     for (i=0; i<len; i++)
     {   smInd=findSmallest(arr)
        smallest = arr[smInd]
        newArr.push(arr[smInd])
@@ -36,8 +35,7 @@ function sort(arr){
     }
     console.log(newArr)
     return newArr
-}
-
+    }
 function findSmallest(arr){
     let smallest = arr[0]
     let smInd = 0
@@ -48,10 +46,8 @@ function findSmallest(arr){
             smInd=i}
         }
         return smInd
-}
-
+    }
 let pum = [2,68,4,832,9,1,1,1,-23]
-
 sort(pum)
 
 ## Work experience:
