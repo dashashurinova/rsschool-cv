@@ -4,7 +4,9 @@
 
 ## Contact information:
 **E-mail:** shurinova.dar.yandex.ru 
+
 **Telegram:** [@ShurinovaD](@ShurinovaD)
+
 **Site:** [ShurinovaD](http://f98315rl.beget.tech/index.html)
 
 ## Briefly about me:
